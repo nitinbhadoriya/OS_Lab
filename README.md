@@ -2,10 +2,10 @@
 
 The input file for every scheduling algorithm will be of the format:
 
-"number of processes" </br>
-"pid"  "arrival time"   "priority"  "share" C "burst" I "burst"  C "burst" .......  -1 </br>
+"number_of_processes" </br>
+"pid"  "arrival_time"   "priority"  "share" C "burst" I "burst"  C "burst" .......  -1 </br>
 .......</br>
-"pid"  "arrival time"   "priority"  "share" C "burst" I "burst"  C "burst" .......  -1
+"pid"  "arrival_time"   "priority"  "share" C "burst" I "burst"  C "burst" .......  -1
 
 
 There can be multiple CPU and I/O burst. The CPU burst time is followed by 'C' and I/O burst is followed by 'I' and -1 marks the end of burst times for that process
